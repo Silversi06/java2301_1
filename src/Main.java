@@ -66,5 +66,17 @@ public class Main {
         String s ="Hello";
         s = s+"Java";
         System.out.println(s);
+
+        String java ="Java";
+        String java2 = "java";
+        String c="C";
+        String z = "Z";
+        int res1 =java.compareTo(java2);
+        System.out.println(res1);
+        int res2 = java.compareTo(c);
+        System.out.println(res2);
+        int res3 = java.compareTo(z);
+        System.out.println(res3);
+
     }
 }
